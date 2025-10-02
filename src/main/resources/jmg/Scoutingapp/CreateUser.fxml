@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="jmg.scoutingapp.CreateUserController"
+      alignment="CENTER"
+      spacing="15"
+      prefWidth="400" prefHeight="500"
+      style="-fx-background-color: #1E1E2F;">
+
+    <Label text="Create New User"
+           style="-fx-font-size: 24px; -fx-text-fill: #FFD700;" />
+
+    <TextField fx:id="nameField" promptText="Full Name" />
+    <TextField fx:id="ageField" promptText="Age" />
+    <TextField fx:id="countryField" promptText="Country" />
+    <TextField fx:id="religionField" promptText="Religion" />
+    <TextField fx:id="raceField" promptText="Race" />
+    <TextField fx:id="userNameField" promptText="username"/> 
+    <PasswordField fx:id="passwordField" promptText="Password" />
+
+    <ComboBox fx:id="roleComboBox" promptText="Select Role" />
+    
+    <Button text="Create User" onAction="#handleCreateUser"
+            style="-fx-background-color: #FFD700; -fx-text-fill: black;" />
+    
+    <Label fx:id="statusLabel" text="" style="-fx-text-fill: white;" />
+
+</VBox>

@@ -1,0 +1,6 @@
+.post-card {
+    -fx-background-color: #f4f4f4;
+    -fx-padding: 10;
+    -fx-background-radius: 8;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.15), 4,0,0,2);
+}

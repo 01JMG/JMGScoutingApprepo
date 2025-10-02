@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/20" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="jmg.Controllers.FollowController"
+      spacing="10" alignment="TOP_CENTER" styleClass="root-pane"
+      stylesheets="@follow.css">
+
+    <!-- Search field -->
+    <TextField fx:id="searchField" promptText="Search users..." styleClass="search-field"/>
+
+    <!-- Scrollable list of users -->
+    <ScrollPane fitToWidth="true" styleClass="scroll-pane">
+        <VBox fx:id="resultsBox" spacing="5" styleClass="results-box"/>
+    </ScrollPane>
+</VBox>

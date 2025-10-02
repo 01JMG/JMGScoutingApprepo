@@ -1,0 +1,25 @@
+=== Scout Report ===
+Scout Agent: Joseph Mbewe
+Player: Kobbie Mainoo
+Position: Midfielder(cm)
+Age: 20
+Strengths: Ball playing
+Passing
+Stamina
+Weaknesses: Non
+Style of Play: Tikki Takka
+Gengen Holding
+Wages: 20000
+Nationality: England
+Club: Manchester United
+Matches Played: 2
+Minutes Played: 74
+Goals Scored: 0
+Assists made: 0
+Yellow Cards: 0
+Red Cards: 0
+Expected Goals(xG): 0.1
+Non-penalty Expected Goals(npxG): 0.1
+Expected Assisted Goals(xAG): 0.1
+Shot-Creating Actions(SCA): 5
+Goal-Creating Actions(GCA): 0

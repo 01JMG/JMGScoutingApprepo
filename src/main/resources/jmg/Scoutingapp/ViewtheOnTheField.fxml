@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/17"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="jmg.scoutingapp.ViewtheOnTheFieldController"
+      stylesheets="@postonthefield.css"
+      spacing="10" alignment="CENTER" style="-fx-padding: 20;">
+
+    <Label text="Post on the Field" style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+
+    <!-- New Post Section -->
+    <TextField fx:id="agentIdField" promptText="Agent ID"/>
+    <TextArea fx:id="contentArea" promptText="What's happening?" prefRowCount="3"/>
+    <TextField fx:id="tagsField" promptText="Tags (comma-separated)"/>
+    
+    <!-- Attach Media Button -->
+    <Button text="Attach Media" fx:id="attachMediaButton" onAction="#handleAttachMedia"/>
+    
+    <Button text="Post" onAction="#handleCreatePost"/>
+
+    <Separator/>
+
+    <Label text="Recent Posts:" style="-fx-font-size: 14px; -fx-font-weight: bold;"/>
+    <ListView fx:id="postsList" prefHeight="200"/>
+
+
+    <!-- Reactions -->
+    <HBox spacing="10">
+        <ComboBox fx:id="reactionBox" promptText="Select reaction"/>
+        <Button text="React" onAction="#handleAddReaction"/>
+    </HBox>
+
+    <!-- Pass/Share -->
+    <HBox spacing="10">
+        <TextField fx:id="passCaptionField" promptText="Add a caption for pass" HBox.hgrow="ALWAYS"/>
+        <Button text="Pass/Share" onAction="#handleAddPass"/>
+    </HBox>
+</VBox>

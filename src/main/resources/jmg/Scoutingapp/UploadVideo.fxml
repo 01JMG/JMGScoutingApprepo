@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="jmg.scoutingapp.UploadVideoController"
+            prefWidth="600" prefHeight="400"
+            stylesheets="@uploadvideo.css">
+
+    <top>
+        <Label text="Upload Player Video"
+               styleClass="header-label"
+               BorderPane.alignment="CENTER"/>
+    </top>
+
+    <center>
+        <VBox spacing="15" alignment="CENTER">
+            <Button fx:id="chooseFileButton" text="Choose Video File" onAction="#handleChooseFile"/>
+            <Label fx:id="fileNameLabel" text="No file selected" />
+            <Button fx:id="uploadButton" text="Upload" onAction="#handleUpload" />
+        </VBox>
+    </center>
+
+    <bottom>
+        <Button text="Back to Menu"
+                onAction="#handleBackToMenu"
+                styleClass="back-button"
+                BorderPane.alignment="CENTER"/>
+    </bottom>
+
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+</BorderPane>

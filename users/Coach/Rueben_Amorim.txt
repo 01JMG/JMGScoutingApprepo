@@ -1,0 +1,7 @@
+Name: Rueben Amorim
+Age: 35
+Country: Portugal
+Religion: Christian
+Race: Causian
+Password: ItHurtSLike
+Role: Coach

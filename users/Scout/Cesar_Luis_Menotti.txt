@@ -1,0 +1,7 @@
+Name: Cesar Luis Menotti
+Age: 52
+Country: Argentina
+Religion: ????
+Race: ???
+Password: fmeesi
+Role: Scout

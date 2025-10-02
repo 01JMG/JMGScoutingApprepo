@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:controller="jmg.scoutingapp.ReadCommentsController"
+      spacing="10" alignment="CENTER" style="-fx-padding: 20;"
+      xmlns:fx="http://javafx.com/fxml/1"
+      xmlns="http://javafx.com/javafx/20">
+
+    <!-- Title -->
+    <Label text="Comments" style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+
+    <!-- List of comments -->
+    <ListView fx:id="commentsList" prefHeight="300" VBox.vgrow="ALWAYS"/>
+
+    <!-- Input for new comment -->
+    <HBox spacing="10">
+        <TextField fx:id="commentField" promptText="Add a comment" HBox.hgrow="ALWAYS"/>
+        <Button text="Post Comment" onAction="#handleAddComment"/>
+    </HBox>
+
+</VBox>
+

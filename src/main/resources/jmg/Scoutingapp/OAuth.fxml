@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+      fx:controller="jmg.scoutingapp.OAuthController"
+      alignment="CENTER"
+      spacing="20"
+      prefWidth="400" prefHeight="300"
+      style="-fx-background-color: #0B3D91;">
+
+    <Label text="Login with Google"
+           style="-fx-font-size: 24px; -fx-text-fill: white;" />
+
+    <Button fx:id="loginButton" text="Login"
+            onAction="#handleLogin"
+            style="-fx-font-size: 16px; -fx-background-color: #FFD700; -fx-text-fill: black;" />
+
+    <Label fx:id="statusLabel" text="Not logged in"
+           style="-fx-font-size: 14px; -fx-text-fill: white;" />
+
+</VBox>

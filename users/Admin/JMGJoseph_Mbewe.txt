@@ -1,0 +1,8 @@
+Name: Joseph Mbewe
+Age: 24
+Country: Zambia
+Religion: Christian
+Race: Nigga
+Password: okokok
+Username: JMG
+Role: Admin
