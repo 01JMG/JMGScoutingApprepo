@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Button?>
+
+<VBox spacing="5" alignment="CENTER"
+      xmlns="http://javafx.com/javafx/20.0.2"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="jmg.scoutingapp.AddPlayerStatsToPlayerController"
+      stylesheets="@addplayerstatstoplayer.css">
+
+    <Label text="Player Stats" style="-fx-font-weight: bold;"/>
+    <TextField fx:id="attackField" promptText="Attack"/>
+    <TextField fx:id="accelerationField" promptText="Acceleration"/>
+    <TextField fx:id="skillField" promptText="Skill"/>
+    <TextField fx:id="kickPowerField" promptText="Kick Power"/>
+    <TextField fx:id="accuracyField" promptText="Accuracy"/>
+    <TextField fx:id="defenseField" promptText="Defense"/>
+    <TextField fx:id="passingField" promptText="Passing"/>
+    <TextField fx:id="crossingField" promptText="Crossing"/>
+    <TextField fx:id="dribbleField" promptText="Dribbling"/>
+    <TextField fx:id="aerialAbilityField" promptText="Aerial Ability"/>
+    
+    <Button text="Save Stats" onAction="#handleSaveStats"/>
+
+    
+    <!-- Status Label -->
+    <Label fx:id="statusLabel" textFill="green"/>
+
+    
+</VBox>
+

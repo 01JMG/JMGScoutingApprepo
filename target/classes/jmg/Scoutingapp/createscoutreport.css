@@ -1,0 +1,79 @@
+/* Overall theme: Clean, professional, and prestigious, inspired by national team colors. */
+
+/* A World Cup-worthy header with a strong, confident feel. */
+#header {
+    -fx-font-size: 28px;
+    -fx-font-weight: 800; /* Extra bold */
+    -fx-padding: 20px;
+    -fx-alignment: center;
+    -fx-text-fill: #FFFFFF; /* Gold text for excellence */
+    -fx-background-color: linear-gradient(to right, #003366, #005A9C); /* Deep blue gradient */
+    -fx-border-color: #FFD700; /* Gold border */
+    -fx-border-width: 0 0 4px 0;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 10, 0, 0, 5);
+}
+
+/* Background for the entire application, giving a clean and focused feel. */
+.border-pane {
+    -fx-background-color: #F8F9FA;
+}
+
+/* Form container: a refined panel for data entry. */
+.grid-pane {
+    -fx-hgap: 15;
+    -fx-vgap: 12;
+    -fx-padding: 25;
+    -fx-background-color: #FFFFFF;
+    -fx-border-radius: 10px;
+    -fx-border-color: #E0E0E0;
+    -fx-border-width: 1px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 15, 0, 0, 5);
+}
+
+/* Labels: clear and authoritative, guiding the user. */
+.label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #1C2833;
+    -fx-font-size: 14px;
+}
+
+/* Text fields and areas: pristine and ready for elite data. */
+.text-field, .text-area {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #D5DBDB;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-font-size: 13px;
+    -fx-prompt-text-fill: #99A3A4;
+}
+
+/* Specific styling for the key areas to make them stand out. */
+#strengthsArea, #weaknessesArea, #styleArea {
+    -fx-pref-height: 80px;
+    -fx-border-color: #A9CCE3; /* Slightly different border for emphasis */
+}
+
+/* Button container: centered and professional. */
+.hbox {
+    -fx-spacing: 20;
+    -fx-alignment: center;
+    -fx-padding: 20 0;
+}
+
+/* Buttons: bold and confident, symbolizing a commitment to excellence. */
+.button {
+    -fx-background-color: #2E86C1;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 25;
+    -fx-padding: 10 24 10 24;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 8, 0, 0, 3);
+}
+
+/* Hover effect: a subtle change for a polished user experience. */
+.button:hover {
+    -fx-background-color: #1B4F72;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 12, 0, 0, 5);
+}
